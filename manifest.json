@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "activeServerId": "server1",
+  "servers": [
+    {
+      "id": "server1",
+      "name": "Survival 1.21.1",
+      "description": "Servidor survival principal con economía y exploración.",
+      "channel": "stable",
+      "minecraftVersion": "1.21.1",
+      "loader": "neoforge",
+      "loaderVersion": "21.1.90",
+      "expectedVersionId": "neoforge-21.1.90",
+      "packVersion": "1.4.0",
+      "manifestUrl": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/main/servers/server1/manifest.json",
+      "iconUrl": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/main/servers/server1/icon.png",
+      "modCount": 84,
+      "approximateSize": 421000000
+    },
+    {
+      "id": "server2",
+      "name": "Tech Pack",
+      "description": "Pack técnico con automatización y máquinas.",
+      "channel": "stable",
+      "minecraftVersion": "1.20.1",
+      "loader": "neoforge",
+      "loaderVersion": "20.4.237",
+      "expectedVersionId": "neoforge-20.4.237",
+      "packVersion": "2.1.0",
+      "manifestUrl": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/main/servers/server2/manifest.json",
+      "iconUrl": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/main/servers/server2/icon.png",
+      "modCount": 126,
+      "approximateSize": 690000000
+    },
+    {
+      "id": "server3",
+      "name": "Hardcore Event",
+      "description": "Evento hardcore temporal con reglas cerradas.",
+      "channel": "beta",
+      "minecraftVersion": "1.21.1",
+      "loader": "neoforge",
+      "loaderVersion": "21.1.90",
+      "expectedVersionId": "neoforge-21.1.90",
+      "packVersion": "0.8.2",
+      "manifestUrl": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/main/servers/server3/manifest.json",
+      "iconUrl": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/main/servers/server3/icon.png",
+      "modCount": 48,
+      "approximateSize": 260000000
+    }
+  ]
+}

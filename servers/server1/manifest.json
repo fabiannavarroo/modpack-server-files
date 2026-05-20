@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "serverId": "server1",
+  "packName": "Survival 1.21.1",
+  "packVersion": "1.4.0",
+  "minecraftVersion": "1.21.1",
+  "loader": "neoforge",
+  "loaderVersion": "21.1.90",
+  "expectedVersionId": "neoforge-21.1.90",
+  "installerUrl": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.90/neoforge-21.1.90-installer.jar",
+  "installerSha256": "REPLACE_WITH_REAL_SHA256",
+  "files": [
+    {
+      "path": "mods/example-core.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/main/files/server1/mods/example-core.jar",
+      "sha256": "REPLACE_WITH_REAL_SHA256",
+      "size": 1234567,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "config/example.toml",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/main/files/server1/config/example.toml",
+      "sha256": "REPLACE_WITH_REAL_SHA256",
+      "size": 4567,
+      "category": "config",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "shaderpacks/example.zip",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/main/files/server1/shaderpacks/example.zip",
+      "sha256": "REPLACE_WITH_REAL_SHA256",
+      "size": 9876543,
+      "category": "shaders",
+      "required": false,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "resourcepacks/server-ui.zip",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/main/files/server1/resourcepacks/server-ui.zip",
+      "sha256": "REPLACE_WITH_REAL_SHA256",
+      "size": 14876543,
+      "category": "resourcepacks",
+      "required": false,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "options.txt",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/main/files/server1/overrides/options.txt",
+      "sha256": "REPLACE_WITH_REAL_SHA256",
+      "size": 2048,
+      "category": "overrides",
+      "required": false,
+      "deleteIfRemoved": true
+    }
+  ]
+}
