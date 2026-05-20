@@ -8,7 +8,6 @@
   "loaderVersion": "21.1.90",
   "expectedVersionId": "neoforge-21.1.90",
   "installerUrl": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.90/neoforge-21.1.90-installer.jar",
-  "installerSha256": "REPLACE_WITH_REAL_SHA256",
   "files": [
     {
       "path": "mods/example-core.jar",
