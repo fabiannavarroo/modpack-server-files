@@ -4,18 +4,19 @@
   "servers": [
     {
       "id": "server1",
-      "name": "Survival 1.21.1",
-      "description": "Servidor survival principal con economía y exploración.",
+      "name": "Create - Perfect World",
+      "description": "Modpack privado Create - Perfect World Post Production sincronizado desde CurseForge.",
       "channel": "stable",
       "minecraftVersion": "1.21.1",
       "loader": "neoforge",
-      "loaderVersion": "21.1.90",
-      "expectedVersionId": "neoforge-21.1.90",
-      "packVersion": "1.4.0",
+      "loaderVersion": "21.1.230",
+      "expectedVersionId": "neoforge-21.1.230",
+      "packVersion": "1.0.0",
       "manifestUrl": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/main/servers/server1/manifest.json",
       "iconUrl": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/main/servers/server1/icon.png",
-      "modCount": 84,
-      "approximateSize": 421000000
+      "modCount": 150,
+      "approximateSize": 433609031,
+      "installerUrl": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.230/neoforge-21.1.230-installer.jar"
     },
     {
       "id": "server2",
