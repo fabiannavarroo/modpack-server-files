@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "serverId": "server1",
   "packName": "Create - Perfect World",
-  "packVersion": "1.0.0",
+  "packVersion": "1.0.1",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.230",
@@ -928,15 +928,6 @@
       "deleteIfRemoved": true
     },
     {
-      "path": "config/fzzy_config/keybinds.toml",
-      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/config/fzzy_config/keybinds.toml",
-      "sha256": "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f",
-      "size": 6403,
-      "category": "config",
-      "required": true,
-      "deleteIfRemoved": true
-    },
-    {
       "path": "config/immediatelyfast.json",
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/config/immediatelyfast.json",
       "sha256": "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a",
@@ -993,7 +984,7 @@
     {
       "path": "config/iris.properties",
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/config/iris.properties",
-      "sha256": "facc4c7a712c11c68a51546a037d1ee4c7c2f8ddbb2e4c80c5778861e4ccf376",
+      "sha256": "ee136815a7b272a51e5020e0e3cdbb89dbf993c2c82ff25a81c422a6601d9d4f",
       "size": 305,
       "category": "config",
       "required": true,
@@ -1326,7 +1317,7 @@
     {
       "path": "config/packetfixer.properties",
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/config/packetfixer.properties",
-      "sha256": "129ff48b402b9f074d20356685ca915d8c9066a93fa46f7f0c1f3c1d60868c59",
+      "sha256": "e72cad0bfc0ce855096f7e88ad740abf460af115d7c42a8e9284fe701f76e103",
       "size": 474,
       "category": "config",
       "required": true,
@@ -1801,28 +1792,10 @@
       "deleteIfRemoved": true
     },
     {
-      "path": "config/voicechat/player-volumes.properties",
-      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/config/voicechat/player-volumes.properties",
-      "sha256": "cd385ca1eeda4df612631e2713cc6d503793157ef8bd5518d736429e6c1ae474",
-      "size": 42,
-      "category": "config",
-      "required": true,
-      "deleteIfRemoved": true
-    },
-    {
       "path": "config/voicechat/translations.properties",
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/config/voicechat/translations.properties",
       "sha256": "b258a94a5ed60fbf93b66c452c3d6e36b044f630741f90e5b13852a4805b235e",
       "size": 1168,
-      "category": "config",
-      "required": true,
-      "deleteIfRemoved": true
-    },
-    {
-      "path": "config/voicechat/username-cache.json",
-      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/config/voicechat/username-cache.json",
-      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
-      "size": 2,
       "category": "config",
       "required": true,
       "deleteIfRemoved": true
@@ -6132,10 +6105,10 @@
     {
       "path": "emi.json",
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/emi.json",
-      "sha256": "f87dee1be58f5aab3512f8efec00e0fa4c46eb6bef5359355f8b5d74465c5e95",
-      "size": 20238,
+      "sha256": "803da147ba281be570422084ae1c3d6ea7c1500068da29e7c29595748a1946e9",
+      "size": 21840,
       "category": "overrides",
-      "required": false,
+      "required": true,
       "deleteIfRemoved": true
     },
     {
@@ -6229,10 +6202,10 @@
       "deleteIfRemoved": true
     },
     {
-      "path": "mods/balm-neoforge-1.21.1-21.0.58.jar",
-      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/balm-neoforge-1.21.1-21.0.58.jar",
-      "sha256": "aa2463747bad4c2351869226ea7bce7839510dfd2ac387f8d1588b1ce9309c67",
-      "size": 701868,
+      "path": "mods/bclib-21.0.20.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/bclib-21.0.20.jar",
+      "sha256": "412723f96aa195d9d96028eb97fa367f1f3c43078e504f4c545ad82bc37e49b2",
+      "size": 2151745,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -6256,6 +6229,24 @@
       "deleteIfRemoved": true
     },
     {
+      "path": "mods/BetterEnd-21.0.24.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/BetterEnd-21.0.24.jar",
+      "sha256": "1005a2f6662f9a76962a6bdabdf108a00ed0396b5dd2173c49c1cbf02ed5891b",
+      "size": 93582315,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/BetterNether-21.0.19.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/BetterNether-21.0.19.jar",
+      "sha256": "b9d96b44ac00456c0d1c72cabec79d724a9e233c684fb26761dfce5723dd1141",
+      "size": 23297758,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
       "path": "mods/bobberdetector-neoforge1.21.1-1.0.3.jar",
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/bobberdetector-neoforge1.21.1-1.0.3.jar",
       "sha256": "6faa520ecc73227b7cb55888989100062b47430bc74cc6e5903c711ff5979094",
@@ -6269,6 +6260,15 @@
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/bobby_reneoforged-5.2.4-0.2%2Bmc1.21.jar",
       "sha256": "62c3c6fa8c346c4b27d4968d5683729bfebefa075e98d50574384b12c2fa3065",
       "size": 1182249,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/bookshelf-neoforge-1.21.1-21.1.81.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/bookshelf-neoforge-1.21.1-21.1.81.jar",
+      "sha256": "19e88d40da2b6a114c2b808f7fb469d96e66a5379df0a8a43fcb7834498b3e76",
+      "size": 328813,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -6427,6 +6427,15 @@
       "deleteIfRemoved": true
     },
     {
+      "path": "mods/create_connected-1.1.16-mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/create_connected-1.1.16-mc1.21.1.jar",
+      "sha256": "5eae502854bcfc210c495f54e474ffde6099c396d4a0089aaa3a08a17554ce27",
+      "size": 6608606,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
       "path": "mods/create_hypertube-0.4.0-COMPAT-NEOFORGE.jar",
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/create_hypertube-0.4.0-COMPAT-NEOFORGE.jar",
       "sha256": "3ccc9cdcfa70e18c8a383b7c3e388d877dc979347bb49a8c813142aa9a662102",
@@ -6454,10 +6463,10 @@
       "deleteIfRemoved": true
     },
     {
-      "path": "mods/create_rustic_structures-1.0.0-neoforge-1.21.1.jar",
-      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/create_rustic_structures-1.0.0-neoforge-1.21.1.jar",
-      "sha256": "db9c08c425ba8c739fb41800b1568ab29e9d55ef461b4b2961d7bc7227e9e38c",
-      "size": 710280,
+      "path": "mods/create_rustic_structures-1.0.1-neoforge-1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/create_rustic_structures-1.0.1-neoforge-1.21.1.jar",
+      "sha256": "96fa8fb53efd33586436d3ac411615754a573fe1f0a6d4c11c8b922126fb8fc6",
+      "size": 758491,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -6526,6 +6535,24 @@
       "deleteIfRemoved": true
     },
     {
+      "path": "mods/createaddition-1.5.10.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/createaddition-1.5.10.jar",
+      "sha256": "72653762c1014c33ce151858d1478573dbd74cbc23c74ffe1fb2d71fb73627ee",
+      "size": 1595173,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/createbigcannons-5.11.3-mc.1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/createbigcannons-5.11.3-mc.1.21.1.jar",
+      "sha256": "16cb451c1673198131148cec8196bb6325b3eb85168172bd629c0b93261381df",
+      "size": 3715787,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
       "path": "mods/createcobblestone-1.4.9+neoforge-1.21.1-130.jar",
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/createcobblestone-1.4.9%2Bneoforge-1.21.1-130.jar",
       "sha256": "681d05b576e063af9157f240b62239b3d80609e9f66fcb59644dc1f57d70ffb3",
@@ -6539,6 +6566,15 @@
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/createdeco-2.1.3.jar",
       "sha256": "edacf1ad0bd6b9f1667d711650dc0cde604356d91caca7ca1ec428c2f9400c6e",
       "size": 3328498,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/createdieselgenerators-1.21.1-1.3.12.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/createdieselgenerators-1.21.1-1.3.12.jar",
+      "sha256": "becdacb4eabdee5846e9821fd6de50fd31698816151ce1e0ab23818136bcec73",
+      "size": 3164035,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -6571,10 +6607,28 @@
       "deleteIfRemoved": true
     },
     {
+      "path": "mods/createpropulsion-1.1.4.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/createpropulsion-1.1.4.jar",
+      "sha256": "816329242ce595d0f8b8bd1a7ea00df48470d41f5b79240fab682bbfbe6f39a1",
+      "size": 1196735,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
       "path": "mods/createrailwaysnavigator-neoforge-1.21.1-beta-0.9.0-C6.jar",
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/createrailwaysnavigator-neoforge-1.21.1-beta-0.9.0-C6.jar",
       "sha256": "b6b2360ea87358192621ae0bc3233f5f3c8b74007617545c2ff9ea5cb8842709",
       "size": 2060438,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/CreativeCore_NEOFORGE_v2.13.38_mc1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/CreativeCore_NEOFORGE_v2.13.38_mc1.21.1.jar",
+      "sha256": "62c88048902c23cde0d8b5b0da2eb7b463c5249380b1f8c86cafd817b0daf4a9",
+      "size": 1216443,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -6625,15 +6679,6 @@
       "deleteIfRemoved": true
     },
     {
-      "path": "mods/DoubleJump-v2.9.5_MOD.jar",
-      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/DoubleJump-v2.9.5_MOD.jar",
-      "sha256": "5a8ae0e51f13fc9514b71d13c99561b1ab5fed5645f758e424bbff6b289a22be",
-      "size": 123912,
-      "category": "mods",
-      "required": true,
-      "deleteIfRemoved": true
-    },
-    {
       "path": "mods/DoubleJump-v2.9.8_MOD.jar",
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/DoubleJump-v2.9.8_MOD.jar",
       "sha256": "b789b1bd1861e19bd5ab853f9aa048c7d85dca84b95c51ab60ddb3a8db0f2606",
@@ -6679,6 +6724,15 @@
       "deleteIfRemoved": true
     },
     {
+      "path": "mods/effortlessbuilding-4.1+1.21.1.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/effortlessbuilding-4.1%2B1.21.1.jar",
+      "sha256": "85ff9ced42b221c819bd958bd57ee447c0e7bb39bd3531476a1e0a31df3375d7",
+      "size": 810119,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
       "path": "mods/emi_enchanting-0.1.2+1.21+neoforge.jar",
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/emi_enchanting-0.1.2%2B1.21%2Bneoforge.jar",
       "sha256": "c22dd7b46acb67e83dcba71b50ced95fe0fb9f2f75b9c0e8ce66f338fda301ca",
@@ -6701,6 +6755,15 @@
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/emi-1.1.24%2B1.21.1%2Bneoforge.jar",
       "sha256": "b68691f94f0727fc517cac2ab55bd6658d1179cc8cc715fe610b60c37469bc4c",
       "size": 1111538,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/enchdesc-neoforge-1.21.1-21.1.9.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/enchdesc-neoforge-1.21.1-21.1.9.jar",
+      "sha256": "74d546ecb147da7e2cb53fe3115f6e062094329dcf15639b3da694cc00d3f843",
+      "size": 81847,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -6733,10 +6796,10 @@
       "deleteIfRemoved": true
     },
     {
-      "path": "mods/Essential_1-3-10-8_neoforge_1-21-1.jar",
-      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/Essential_1-3-10-8_neoforge_1-21-1.jar",
-      "sha256": "75f4bb9de2aa8e07a3e0402582f32050584e791001fb910d6436e42b3542e854",
-      "size": 51108317,
+      "path": "mods/Essential_1-3-10-9_neoforge_1-21-1.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/Essential_1-3-10-9_neoforge_1-21-1.jar",
+      "sha256": "db4223235450ed06796546bdd6592dde66f935b2053639accde4680a7a1c6830",
+      "size": 51855996,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -6782,6 +6845,15 @@
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/fastpaintings-1.21-1.3.0-neoforge.jar",
       "sha256": "782afb6f4c631c9d3313b6442d304b36336f794273dfa5c381485142020ca05a",
       "size": 155810,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/FazRoleplayClothes-Neo1.21.1-1.6.1.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/FazRoleplayClothes-Neo1.21.1-1.6.1.jar",
+      "sha256": "61a20671eb8a5faaddc96670a5ec27555fe474b17a427895d0b459fcec6b1290",
+      "size": 522086,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -6863,6 +6935,24 @@
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/immersive_paintings-neoforge-1.21.1-0.7.6.jar",
       "sha256": "48ce0b45f575f6fe4c4fa83f2b9b33a14176fc69f5c188af8adb5d0ee8c8def4",
       "size": 5350777,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/immersive_portals-6.0.7-all.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/immersive_portals-6.0.7-all.jar",
+      "sha256": "a7ec4e0fded029f5ed445b297857e907346591a5805d595f1734a2773c8b403d",
+      "size": 1864746,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/interiors-1.21.1-neoforge-0.6.1.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/interiors-1.21.1-neoforge-0.6.1.jar",
+      "sha256": "0d1326fb8b67623ae1c69a63b788dcdcecaf8df400c7d8e5e55ace79a5166fe5",
+      "size": 486912,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -6976,6 +7066,15 @@
       "deleteIfRemoved": true
     },
     {
+      "path": "mods/lootr-neoforge-1.21.1-1.11.37.120.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/lootr-neoforge-1.21.1-1.11.37.120.jar",
+      "sha256": "f7b80bf86e02a1107fb1600aa6a02608ebcddb140b123a42d5ee199e5db65c8d",
+      "size": 976023,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
       "path": "mods/mcw-bridges-3.1.2-mc1.21.1neoforge.jar",
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/mcw-bridges-3.1.2-mc1.21.1neoforge.jar",
       "sha256": "070b817d3282760d9789b22ce13779613c8b558e02012fd5884d343175d88fd9",
@@ -7021,10 +7120,10 @@
       "deleteIfRemoved": true
     },
     {
-      "path": "mods/moonlight-neoforge-1.21.1-3.0.10.jar",
-      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/moonlight-neoforge-1.21.1-3.0.10.jar",
-      "sha256": "21a21248414ab1e49b3dbbd077e999259f1f6bd129fcd88f2b8041f0e1148671",
-      "size": 1575054,
+      "path": "mods/moonlight-neoforge-1.21.1-3.0.12.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/moonlight-neoforge-1.21.1-3.0.12.jar",
+      "sha256": "4b54c0bae43f937f231ff21d4df4d4f6f0c69aad0f06c59ae137faf79bc0964c",
+      "size": 1578553,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -7129,10 +7228,19 @@
       "deleteIfRemoved": true
     },
     {
-      "path": "mods/PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar",
-      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar",
-      "sha256": "305c828c171a5b52867b56686665b525bcf286018496ece81f376806794ba914",
-      "size": 1080389,
+      "path": "mods/prickle-neoforge-1.21.1-21.1.11.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/prickle-neoforge-1.21.1-21.1.11.jar",
+      "sha256": "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167",
+      "size": 84812,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/PuzzlesLib-v21.1.44-1.21.1-NeoForge.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/PuzzlesLib-v21.1.44-1.21.1-NeoForge.jar",
+      "sha256": "f66eb35ab3a6af31c02d15a002a9d61f07cdca9075a479ce0c26da26d2037a5b",
+      "size": 1344628,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -7187,6 +7295,15 @@
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/rightclickharvest-neoforge-4.6.1%2B1.21.1.jar",
       "sha256": "b5d597ed361964ba9530a848fe8987715f40af2390dfa1a6adb70a2a74076d52",
       "size": 287634,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/ritchiesprojectilelib-2.1.2-mc.1.21.1-neoforge.jar",
+      "sha256": "cc509060833736fb650aa4c36b1ce33a7eeeb9ca6e9f8e80a7c951c9e7487b24",
+      "size": 76369,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -7318,10 +7435,10 @@
       "deleteIfRemoved": true
     },
     {
-      "path": "mods/sophisticatedbackpacks-1.21.1-3.25.45.1742.jar",
-      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/sophisticatedbackpacks-1.21.1-3.25.45.1742.jar",
-      "sha256": "dbf46f90d7b175b003c99d6c5d3d7ad66f381664eb7d4c8da9c0a1b28a33887f",
-      "size": 1052173,
+      "path": "mods/sophisticatedbackpacks-1.21.1-3.25.46.1746.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/sophisticatedbackpacks-1.21.1-3.25.46.1746.jar",
+      "sha256": "251b2252442124990cb67d5c927c2c2e257b4ddc9f89108f230cab16c60332bc",
+      "size": 1052358,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -7336,10 +7453,10 @@
       "deleteIfRemoved": true
     },
     {
-      "path": "mods/sophisticatedcore-1.21.1-1.4.39.1852.jar",
-      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/sophisticatedcore-1.21.1-1.4.39.1852.jar",
-      "sha256": "01ef0d984bdeed5e17bbe949d6df72a36debe57738f22c577be4bb2d248d52fc",
-      "size": 1596646,
+      "path": "mods/sophisticatedcore-1.21.1-1.4.40.1855.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/sophisticatedcore-1.21.1-1.4.40.1855.jar",
+      "sha256": "9c2b2609a3d76aca577dbf359b39b699c207c86adbdced789d5f2a663ed351e9",
+      "size": 1606338,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -7372,6 +7489,15 @@
       "deleteIfRemoved": true
     },
     {
+      "path": "mods/supplementaries-neoforge-1.21.1-3.6.5.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/supplementaries-neoforge-1.21.1-3.6.5.jar",
+      "sha256": "c85968518ff822eb313b5ec8292f7f54d0cc9b4fe046ae5e7a3e4a40f6c8e76b",
+      "size": 13304373,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
       "path": "mods/toms_storage-1.21-2.3.2.jar",
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/toms_storage-1.21-2.3.2.jar",
       "sha256": "34f242f60a601750cbe082870ef47bc3e45515fa55f26d4c9644e779ba1f50de",
@@ -7399,10 +7525,10 @@
       "deleteIfRemoved": true
     },
     {
-      "path": "mods/VanillaBackport-neoforge-1.21.1-1.1.7.5.jar",
-      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/VanillaBackport-neoforge-1.21.1-1.1.7.5.jar",
-      "sha256": "b89aeb175701b34fb01d2a7256143033e575dfa4f5b3009c784626dcd64d3c7d",
-      "size": 54171927,
+      "path": "mods/VanillaBackport-neoforge-1.21.1-1.1.7.6.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/VanillaBackport-neoforge-1.21.1-1.1.7.6.jar",
+      "sha256": "9b12deb39ab53e461dd39a1865a98c79874a679071126dac334c3fd7bf97c0d1",
+      "size": 54217741,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -7435,10 +7561,64 @@
       "deleteIfRemoved": true
     },
     {
+      "path": "mods/waterframes-NEOFORGE-mc1.21.1-v2.1.23.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/waterframes-NEOFORGE-mc1.21.1-v2.1.23.jar",
+      "sha256": "bd118e6b3a7740dc14b21ddb9ba771acf152b4fd9e098b99aab72185fc3b1108",
+      "size": 256825,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/watermedia_youtube_plugin-2.1.2.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/watermedia_youtube_plugin-2.1.2.jar",
+      "sha256": "95c2841103b4d1e0c222f29b49d9500c0d5306772aa18c6eb11925be6ff7507e",
+      "size": 3830072,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/watermedia-2.1.37.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/watermedia-2.1.37.jar",
+      "sha256": "cdd8e1b50e4dee0892c5ed02724cea6b1a74d2b718c7e974c9cfc0efa8c10389",
+      "size": 37046674,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/watervision-NF-mc1.21.1-v0.1.0-alpha.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/watervision-NF-mc1.21.1-v0.1.0-alpha.jar",
+      "sha256": "3568da15d2687137b59aa2361c8fa0259d2a4774978fb3658c9c2cce9923a2d2",
+      "size": 78233,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
       "path": "mods/waystones-neoforge-1.21.1-21.1.33.jar",
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/waystones-neoforge-1.21.1-21.1.33.jar",
       "sha256": "5cf1deb53617f3219b66f14e132eb4b33fd14080735a7cfeba026fe8a6c4304b",
       "size": 878265,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/worldweaver-21.0.20.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/worldweaver-21.0.20.jar",
+      "sha256": "adddd64cca860625c48b5382d61cae67d405ec629c5d696d0f7f59df78107dcb",
+      "size": 2157794,
+      "category": "mods",
+      "required": true,
+      "deleteIfRemoved": true
+    },
+    {
+      "path": "mods/wunderlib-21.0.10.jar",
+      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/wunderlib-21.0.10.jar",
+      "sha256": "b49c7a040f87ade1e3f73bd7335e8d68ff7a328919c192a6d2c022bae6786a2f",
+      "size": 378820,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
@@ -7486,15 +7666,6 @@
       "size": 782160,
       "category": "mods",
       "required": true,
-      "deleteIfRemoved": true
-    },
-    {
-      "path": "options.txt",
-      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/options.txt",
-      "sha256": "a6590eb1803a8f695b818fb7d6e3a0204b330f88290f4e7d8f6b731208d7044a",
-      "size": 13359,
-      "category": "overrides",
-      "required": false,
       "deleteIfRemoved": true
     },
     {
