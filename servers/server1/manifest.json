@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "serverId": "server1",
   "packName": "Create - Perfect World",
-  "packVersion": "1.0.1",
+  "packVersion": "1.0.2",
   "minecraftVersion": "1.21.1",
   "loader": "neoforge",
   "loaderVersion": "21.1.230",
@@ -6935,15 +6935,6 @@
       "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/immersive_paintings-neoforge-1.21.1-0.7.6.jar",
       "sha256": "48ce0b45f575f6fe4c4fa83f2b9b33a14176fc69f5c188af8adb5d0ee8c8def4",
       "size": 5350777,
-      "category": "mods",
-      "required": true,
-      "deleteIfRemoved": true
-    },
-    {
-      "path": "mods/immersive_portals-6.0.7-all.jar",
-      "url": "https://raw.githubusercontent.com/fabiannavarroo/modpack-server-files/refs/heads/main/files/server1/mods/immersive_portals-6.0.7-all.jar",
-      "sha256": "a7ec4e0fded029f5ed445b297857e907346591a5805d595f1734a2773c8b403d",
-      "size": 1864746,
       "category": "mods",
       "required": true,
       "deleteIfRemoved": true
